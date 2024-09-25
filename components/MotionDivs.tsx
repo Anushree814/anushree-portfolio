@@ -60,12 +60,6 @@ export default function MotionDivs() {
         }}
         className="absolute w-[9rem] h-[9rem] bg-[#bface8]  translate-x-9 translate-y-9  -rotate-12 -top-[2rem] left-[7rem] rounded-full bg-opacity-45"
       ></motion.div>
-
-      {/* <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        className="absolute w-[2rem] h-[2rem] bg-[#fc9684]  translate-x-9 translate-y-9 -rotate-12 top-3 right-10 rounded-full bg-opacity-60"
-      >1</motion.div> */}
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -104,7 +98,7 @@ export default function MotionDivs() {
         transition={{
           delay: 0.2,
         }}
-        className="absolute sm:!hidden md:block w-[16rem] h-[16rem] bg-[#e8b5ac]  translate-x-9 translate-y-9  -rotate-12 top-[6rem] -right-[8rem] rounded-full bg-opacity-40"
+        className="absolute hidden md:block w-[16rem] h-[16rem] bg-[#e8b5ac]  translate-x-9 translate-y-9  -rotate-12 top-[6rem] lg:-right-[8rem] rounded-full bg-opacity-40"
       ></motion.div>
       <motion.div
         initial={{ opacity: 0 }}

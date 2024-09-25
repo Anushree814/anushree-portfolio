@@ -6,7 +6,7 @@ export const validateInput = (value: unknown) => {
 };
 
 export const getErrorMessage = (error: any): string => {
-  console.log("🚀 ~ getErrorMessage ~ error:", error)
+
   let message: string;
   if (error && typeof error === "object" && "message" in error) {
     message = error.message;

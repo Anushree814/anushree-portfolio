@@ -9,7 +9,6 @@ import "react-vertical-timeline-component/style.min.css";
 import { experienceData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
-import { coldarkCold } from "@react-email/components";
 export default function Experience() {
   const { ref } = useSectionInView("Experience", 0.4);
 

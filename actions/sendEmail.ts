@@ -39,17 +39,17 @@ export const sendEmail = async (formData: FormData) => {
         senderEmail: senderEmail as string,
       }),
     });
-    console.log("email res", response);
+    
     if(response?.error && !!response.error){
         error = getErrorMessage(response?.error);
     }
   } catch (error: unknown) {
-    console.log('getErrorMessage', getErrorMessage(error));
+    
     return {
       error: getErrorMessage(error),
     };
   }
-  //console.log({...response});
+
   
   return { ...response.data, error };
 };

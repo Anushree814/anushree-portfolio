@@ -52,7 +52,7 @@ export default function About() {
         <span className="font-medium">
           Indian Classical Music and music is my passion 🎶♥️
         </span>{" "}
-        I have recently discovered that {`I'm`} quite a greenie🪴 myself as I
+        I have recently discovered that {`I'm`} quite a greenie🪴 myself as I love
         spending time with my succulents.
       </p>
     </motion.section>
