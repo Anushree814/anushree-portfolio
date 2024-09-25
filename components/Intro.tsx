@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import pic from "@/public/pic.jpeg";
+import pic from "@/public/picme.jpeg";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs";
@@ -33,7 +33,7 @@ export default function Intro() {
               width={192}
               height={192}
               quality={95}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-24 w-24 rounded-full object-cover object-top border-[0.35rem] border-white shadow-xl"
               alt="my photo"
             />
           </motion.div>
