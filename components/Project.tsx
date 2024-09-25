@@ -8,7 +8,6 @@ export default function Project({
   title,
   description,
   skills,
-  imageUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -53,7 +52,7 @@ export default function Project({
         group-even:group-hover:translate-y-3
         group-even:group-hover:rotate-2
         group-even:right-[initial] group-even:-left-80"
-          src={imageUrl}
+          src={''}
           alt={title}
           quality={95}
         />
