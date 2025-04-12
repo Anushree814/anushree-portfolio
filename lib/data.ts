@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { PiBuildingOfficeBold, PiOfficeChairBold } from "react-icons/pi";
 import { LuGraduationCap } from "react-icons/lu";
 
 export const links = [
@@ -32,12 +32,20 @@ export const links = [
 
 export const experienceData = [
   {
+    title: "Senior Software Developer - Frontend",
+    location: "Rayden Interactive, Pune",
+    description:
+      "Currently, I'm working as a mid-senior Frontend Developer on a healthcare project. My tech stack includes React, Next.js, TypeScript, Material UI, AWS, and GraphQL. I'm open to full-time opportunities.",
+    icon: React.createElement(PiOfficeChairBold),
+    date: "2024 - Present",
+  },
+  {
     title: "Experience Engineer L2 - Frontend",
     location: "Publicis Sapient, Pune",
     description:
-      "Currently, I'm working as a mid-senior Frontend developer. My stack includes React, Next.js, TypeScript, Material UI, and Apollo Client. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2022 - present",
+      "Worked as a Frontend Developer on a resource management application build using Next.js, Material UI, GraphQL",
+    icon: React.createElement(PiBuildingOfficeBold),
+    date: "2022 - 2024",
   },
   {
     title: "Application Development Analyst - Frontend",
@@ -85,11 +93,12 @@ export const skillsData = [
   "HTML5",
   "CSS3",
   "JavaScript",
+  "AWS",
   "Material UI",
   "Git",
   "Redux",
   "Redux Toolkit",
-  "Apollo client",
+  "GraphQL",
   "Jest",
   "Playwright",
   "Bootstrap",

@@ -10,8 +10,8 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
- const {ref} = useSectionInView('Home')
- const {setActiveSection, setTimeOfLastClick} = useActiveSectionContext()
+  const { ref } = useSectionInView("Home");
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   return (
     <section
       className="mb-28 mt-[8.5rem] max-w-[50rem] text-center sm:mb-0 scroll-mt-28 z-50"
@@ -57,11 +57,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">{`Hey, I'm Anushree.`}</span> {`I'm a `}
-        <span className="font-bold">frontend developer</span> with{" "}
-        <span className="font-bold">5 years</span> of experience. I enjoy
-        building <span className="italic">websites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>
+        Hey, {`I'm`}
+        <span className="font-semibold">{` Anushree.`}</span> {`I'm a `}
+        <span className="font-bold font-skills">Frontend Developer</span> with
+        5+ years of experience, specializing in{" "}
+        <span className="font-bold"> React and Next.js</span>.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium "
