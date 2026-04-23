@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { PiBuildingOfficeBold, PiOfficeChairBold } from "react-icons/pi";
 import { LuGraduationCap } from "react-icons/lu";
-
+import { FaLaptop } from "react-icons/fa";
 export const links = [
   {
     name: "Home",
@@ -32,10 +32,18 @@ export const links = [
 
 export const experienceData = [
   {
+    title: "Software Engineer - Frontend",
+    location: "GFK - NielsenIQ (NIQ), Pune",
+    description:
+      "Currently, I'm working as a mid-senior Frontend Developer, contributing to a large-scale analytics platform by building reusable UI components, driving design system adoption, and improving code quality, testing, and deployment reliability. The tech stack includes React, Typescript, and GraphQL",
+    icon: React.createElement(FaLaptop),
+    date: "2024 - Present",
+  },
+  {
     title: "Senior Software Developer - Frontend",
     location: "Rayden Interactive, Pune",
     description:
-      "Currently, I'm working as a mid-senior Frontend Developer on a healthcare project. My tech stack includes React, Next.js, TypeScript, Material UI, AWS, and GraphQL. I'm open to full-time opportunities.",
+      "Built and scaled frontend architecture for a real-time healthcare platform, delivering reusable, accessible UI components and optimizing performance for data-intensive workflows using React, TypeScript, and GraphQL.",
     icon: React.createElement(PiOfficeChairBold),
     date: "2024 - Present",
   },
