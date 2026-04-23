@@ -56,7 +56,7 @@ export default function ContactMe() {
         }}
       >
         <input
-          className="h-14 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-90 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          className="h-14 rounded-lg borderBlack p-4 dark:text-gray-800 dark:bg-white dark:bg-opacity-90 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           type="email"
           placeholder="Your email id"
           ref={emailRef}
