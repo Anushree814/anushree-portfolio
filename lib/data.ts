@@ -33,7 +33,7 @@ export const experienceData = [
     description:
       "Currently, I'm working as a mid-senior Frontend Developer, contributing to a large-scale analytics platform by building reusable UI components, driving design system adoption, and improving code quality, testing, and deployment reliability. The tech stack includes React, Typescript, and GraphQL",
     icon: React.createElement(FaLaptop),
-    date: "2024 - Present",
+    date: "2025 - Present",
   },
   {
     title: "Senior Software Developer - Frontend",
@@ -41,7 +41,7 @@ export const experienceData = [
     description:
       "Built and scaled frontend architecture for a real-time healthcare platform, delivering reusable, accessible UI components and optimizing performance for data-intensive workflows using React, TypeScript, and GraphQL.",
     icon: React.createElement(PiOfficeChairBold),
-    date: "2024 - Present",
+    date: "2024 - 2025",
   },
   {
     title: "Experience Engineer L2 - Frontend",
